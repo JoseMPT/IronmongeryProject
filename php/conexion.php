@@ -3,10 +3,10 @@ function connect(): bool|mysqli
 {
     $hostname = 'localhost';
     $username = 'root';
-    $password = 'cloe-5568720898';
+    $password = '123456789M&M';
     $database_es = 'hardware_store_es';
     $database_en = 'hardware_store_en';
-    $port = '3307';
+    $port = '3308';
 
     return mysqli_connect($hostname, $username, $password, $database_es, $port);
 }
