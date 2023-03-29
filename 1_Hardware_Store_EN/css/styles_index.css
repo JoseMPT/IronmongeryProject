@@ -1,0 +1,182 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 2%;
+    background-color: #f85420;
+}
+
+main{
+
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 4% 0;
+}
+
+#registro{
+    text-align: center;
+}
+
+/*.form-register input{
+    background-color: #d0d0d0;
+    border: 0;
+    border-bottom: 2px solid yellow;
+}*/
+
+.form-register{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+.register{
+    font-size: 3em;
+}
+
+.img-index{
+    width: available;
+}
+
+.adds > p{
+    color: rgb(59, 43, 18);
+    background-color: #d9d4d4;
+    border-radius: 10px;
+}
+
+.adds{
+    font-size: 5em;
+    text-align: center;
+}
+
+.icon{
+    width: 30px;
+}
+
+#logo{
+    display: flex;
+    font-size: 1.5em;
+}
+
+#options{
+    display: flex;
+    padding-right: 20px;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#options a:hover{
+    color: white;
+}
+
+#options a{
+    font-weight: 600;
+    padding-inline: 15px;
+}
+
+article p{
+    font-size: 2em;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+address{
+    font-size: 1.5em;
+}
+
+.form-product{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    padding-top: 5%;
+    box-shadow: 2px 2px 3px 0 #d0d0d0;
+    border-radius: 30px;
+}
+
+.product-id{
+    display: none;
+}
+
+.icon_products{
+    width: 20%;
+    padding-bottom: 5%;
+}
+
+.div-product-data{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.product-name{
+    font-size: 3em;
+}
+
+.product-description{
+    font-size: 1.8em;
+}
+
+.button-product{
+    border: none;
+    box-shadow: 2px 2px 3px 2px #dcdcdc;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.form-delete{
+    padding-top: 20px;
+}
+
+.button-product-delete{
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+    header{
+        flex-direction: column;
+    }
+
+    #options{
+        padding: 15px 0;
+        font-size: 1.3em;
+    }
+
+    .product-name{
+        font-size: 1.5em;
+    }
+
+    .product-description{
+        font-size: 1.1em;
+    }
+}

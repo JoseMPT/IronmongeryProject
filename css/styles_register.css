@@ -1,0 +1,50 @@
+/*.login-box {
+    background: rgb(29, 74, 79);
+    color: #fff;
+    border-radius: 20px;
+}*/
+
+.login-box h1 {
+    margin: 0;
+    padding: 15px 0 20px;
+    text-align: center;
+    font-size: 4em;
+}
+.login-box label {
+    margin: 0;
+    padding: 0;
+    font-size: 1.3em;
+}
+
+.login-box input[type="email"], .login-box input[type="password"], .login-box input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #7e7d7d;
+    background-color: #efefef;
+    height: 40px;
+    color: #000000;
+    font-size: 16px;
+    width: 250px
+
+}
+
+.login-box input[type="submit"] {
+    border: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+.login-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+
+form > p{
+    font-size: 12px;
+    line-height: 20px;
+    color: #000000;
+}
